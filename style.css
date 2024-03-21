@@ -1,0 +1,128 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+h2
+{
+    color:black;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    min-height: 100vh;
+}
+
+.container
+{
+    min-height: 45vh;
+    width: 40vh;
+    background-color: yellow;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.amount
+{
+    margin-top: 2rem;
+}
+.ft
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.msg
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 20px;
+    
+}
+.getres
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.getres button
+{
+    font-size: 20px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: rgb(94, 7, 215);
+    height: 3rem;
+    width:100%;
+    color:white;
+
+}
+
+.getres button:hover{
+    background-color: rgb(145, 63, 222);
+}
+.im
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(174, 173, 173);
+}
+
+select
+{
+    border: none;
+    outline: none;
+}
+
+img{
+    width: 3rem;
+    height: 3rem;
+}
+i
+{
+    font-size: 2rem;
+}
+
+.head
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amount input
+{
+    border: 1px solid rgb(212, 209, 209);
+    outline: none;
+    font-size: 1.2rem;
+    height: 3rem;
+    border-radius: 1rem;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+i{
+    margin-top: 1.3rem;
+}
+
+.im :hover
+{
+    background-color: rgb(195, 205, 205);
+    background-size: cover;
+}
+
+.amount input:hover
+{
+    background-color:rgb(228, 219, 219);
+}
